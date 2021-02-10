@@ -6,7 +6,6 @@ on:
 jobs:
   check-template:
     name: ${{ matrix.lesson-name }} (${{ matrix.os-name }})
-    if: github.repository == 'carpentries/styles'
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false

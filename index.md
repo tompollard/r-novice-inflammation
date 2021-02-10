@@ -3,6 +3,8 @@ layout: lesson
 root: .
 ---
 
+HELLO
+
 The best way to learn how to program is to do something useful,
 so this introduction to R is built around a common scientific task:
 data analysis.
